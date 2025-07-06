@@ -1,0 +1,23 @@
+{
+  "name": "m_agent_collaboration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "@langchain/langgraph": "^0.3.6",
+    "@langchain/tavily": "^0.1.4",
+    "canvas": "^3.1.2",
+    "d3": "^7.9.0",
+    "tslab": "^1.0.22"
+  }
+}
