@@ -1,0 +1,28 @@
+{
+  "name": "m_agent_hierarchy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --import tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.48",
+    "@langchain/core": "^0.3.62",
+    "@langchain/langgraph": "^0.3.6",
+    "@langchain/openai": "^0.5.18",
+    "@langchain/tavily": "^0.1.4",
+    "canvas": "^3.1.2",
+    "cheerio": "^1.1.0",
+    "d3": "^7.9.0",
+    "tslab": "^1.0.22",
+    "zod": "^3.25.74"
+  }
+}
